@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="77F62A47-63A4-D2D9-E000-55E4DCCEA147" name="T_SGV_CARGO">
+<createdBy>joaom</createdBy>
+<createdTime>2022-08-31 19:34:53 UTC</createdTime>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<engineerTo>
+<item key="60557007-414D-49CD-DBBC-F5C0D098DDFE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_cargo" id="BE28A73D-C5A5-2324-93D2-C93EB8F3A437">
+<createdBy>joaom</createdBy>
+<createdTime>2022-08-31 19:35:04 UTC</createdTime>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<engineerTo>
+<item key="60557007-414D-49CD-DBBC-F5C0D098DDFE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="des_cargo" id="4AB37176-78AA-7A5A-820E-70611227C825">
+<createdBy>joaom</createdBy>
+<createdTime>2022-08-31 19:35:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[Descrição do cargo]]></commentInRDBMS>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<engineerTo>
+<item key="60557007-414D-49CD-DBBC-F5C0D098DDFE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B35DF307-280E-2C35-7B58-DB6CF77B3962" name="T_SGV_CARGO PK">
+<createdBy>joaom</createdBy>
+<createdTime>2022-08-31 19:35:55 UTC</createdTime>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="60557007-414D-49CD-DBBC-F5C0D098DDFE" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BE28A73D-C5A5-2324-93D2-C93EB8F3A437</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

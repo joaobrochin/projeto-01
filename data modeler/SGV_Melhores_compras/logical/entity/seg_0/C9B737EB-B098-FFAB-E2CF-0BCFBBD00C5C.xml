@@ -1,0 +1,154 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C9B737EB-B098-FFAB-E2CF-0BCFBBD00C5C" name="T_SGV_CLIENTE">
+<createdBy>joaom</createdBy>
+<createdTime>2022-09-01 19:32:30 UTC</createdTime>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<engineerTo>
+<item key="60557007-414D-49CD-DBBC-F5C0D098DDFE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_cliente" id="10F66032-515A-65A7-C09A-E53C17C4F375">
+<createdBy>joaom</createdBy>
+<createdTime>2022-09-01 20:34:14 UTC</createdTime>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<engineerTo>
+<item key="60557007-414D-49CD-DBBC-F5C0D098DDFE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_cadastro" id="4C1559B6-F292-2F96-E1DF-0A8312314BF6">
+<createdBy>joaom</createdBy>
+<createdTime>2022-09-01 20:04:20 UTC</createdTime>
+<generatorID>E71C4449-10E4-86C7-E82C-698C2FB7B3BF</generatorID>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<engineerTo>
+<item key="60557007-414D-49CD-DBBC-F5C0D098DDFE" value="true"/>
+</engineerTo>
+<referedAttribute>B7E135F6-CCEC-CCBE-1508-8E88C095DF91</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="des_genero" id="816C09E1-5132-C86A-CECB-E057D052D9AF">
+<createdBy>joaom</createdBy>
+<createdTime>2022-09-02 00:58:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[F - Feminino
+M - Masculino
+O - Outro]]></commentInRDBMS>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<engineerTo>
+<item key="60557007-414D-49CD-DBBC-F5C0D098DDFE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tip_cliente" id="4DBA5E9B-92C3-6EFE-4575-0BED201B620E">
+<createdBy>joaom</createdBy>
+<createdTime>2022-09-02 01:14:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[F - Fisico
+J - Juridico]]></commentInRDBMS>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<engineerTo>
+<item key="60557007-414D-49CD-DBBC-F5C0D098DDFE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="num_cpf" id="583D988A-B467-5440-544A-B499D2247E69">
+<createdBy>joaom</createdBy>
+<createdTime>2022-09-01 19:33:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[CPF do cliente fisico]]></commentInRDBMS>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<engineerTo>
+<item key="60557007-414D-49CD-DBBC-F5C0D098DDFE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="num_rg" id="963901D7-D3AE-F886-3CA2-8ED65AB5D9CE">
+<createdBy>joaom</createdBy>
+<createdTime>2022-09-01 19:35:23 UTC</createdTime>
+<commentInRDBMS><![CDATA[RG do cliente fisico]]></commentInRDBMS>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<engineerTo>
+<item key="60557007-414D-49CD-DBBC-F5C0D098DDFE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="num_cnpj" id="3B6E9F5C-5FF5-F9D0-6AE9-4961FF9A0393">
+<createdBy>joaom</createdBy>
+<createdTime>2022-09-01 20:32:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[código do CNPJ]]></commentInRDBMS>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<engineerTo>
+<item key="60557007-414D-49CD-DBBC-F5C0D098DDFE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>14</dataTypePrecision>
+<ownDataTypeParameters>,14,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="num_inscricao_estadual" id="1A7C20D1-C39E-2B73-D18C-0375F552D493">
+<createdBy>joaom</createdBy>
+<createdTime>2022-09-01 20:32:53 UTC</createdTime>
+<commentInRDBMS><![CDATA[Código de inscrição estadual empresa]]></commentInRDBMS>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<engineerTo>
+<item key="60557007-414D-49CD-DBBC-F5C0D098DDFE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9A2FB457-2FC2-31E9-576B-A4A218F160B7" name="T_SGV_CLIENTE PK">
+<createdBy>joaom</createdBy>
+<createdTime>2022-09-01 20:34:08 UTC</createdTime>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="60557007-414D-49CD-DBBC-F5C0D098DDFE" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4C1559B6-F292-2F96-E1DF-0A8312314BF6</attributeRef>
+<attributeRef>10F66032-515A-65A7-C09A-E53C17C4F375</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

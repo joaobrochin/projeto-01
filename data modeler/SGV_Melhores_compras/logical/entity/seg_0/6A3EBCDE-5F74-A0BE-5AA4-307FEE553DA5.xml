@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6A3EBCDE-5F74-A0BE-5AA4-307FEE553DA5" name="T_SGV_CATEGORIA_PROD">
+<createdBy>joaom</createdBy>
+<createdTime>2022-08-31 17:21:54 UTC</createdTime>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<engineerTo>
+<item key="60557007-414D-49CD-DBBC-F5C0D098DDFE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_categoria" id="7EB118B6-0C92-B54D-72F8-E871A87223C2">
+<createdBy>joaom</createdBy>
+<createdTime>2022-08-31 17:22:11 UTC</createdTime>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<engineerTo>
+<item key="60557007-414D-49CD-DBBC-F5C0D098DDFE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="des_categoria_produto" id="389FB422-8BE0-656B-83C1-00E85FEE0463">
+<createdBy>joaom</createdBy>
+<createdTime>2022-08-31 17:22:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[Categoria dos produtos]]></commentInRDBMS>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<engineerTo>
+<item key="60557007-414D-49CD-DBBC-F5C0D098DDFE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+<ownDataTypeParameters>45,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sta_categoria" id="C866C38B-EF43-35B0-8884-AE3124FC3D3B">
+<createdBy>joaom</createdBy>
+<createdTime>2022-08-31 17:23:19 UTC</createdTime>
+<commentInRDBMS><![CDATA[Status da categoria
+A - Ativo
+I - Inativo]]></commentInRDBMS>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<engineerTo>
+<item key="60557007-414D-49CD-DBBC-F5C0D098DDFE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dat_inicio" id="3615E6DE-883C-B020-8A4D-7E829295BC4B">
+<createdBy>joaom</createdBy>
+<createdTime>2022-08-31 17:24:02 UTC</createdTime>
+<commentInRDBMS><![CDATA[Data de cadastro da categoria]]></commentInRDBMS>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<engineerTo>
+<item key="60557007-414D-49CD-DBBC-F5C0D098DDFE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dat_termino" id="7729F71A-3590-0AD6-C2A3-818621912757">
+<createdBy>joaom</createdBy>
+<createdTime>2022-08-31 17:24:31 UTC</createdTime>
+<commentInRDBMS><![CDATA[Data de término da categoria]]></commentInRDBMS>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<engineerTo>
+<item key="60557007-414D-49CD-DBBC-F5C0D098DDFE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FDA978CE-841D-509F-2888-366D094D3397" name="T_SGV_CATEGORIA_PROD PK">
+<createdBy>joaom</createdBy>
+<createdTime>2022-08-31 17:22:20 UTC</createdTime>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="60557007-414D-49CD-DBBC-F5C0D098DDFE" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7EB118B6-0C92-B54D-72F8-E871A87223C2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

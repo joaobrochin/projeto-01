@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F657F6A7-21A6-D8CE-3D87-A00D5E246788" containerWithKeyObject="F8B9B1DB-F5AF-A893-CDD3-E6D7FF78BFF5" localFKIndex="5D682B25-A21E-6146-622D-E1A89C8974B8" name="T_SGV_TEL_T_SGV_D_CDT_FK">
+<createdBy>joaom</createdBy>
+<createdTime>2022-09-02 23:54:02 UTC</createdTime>
+<generatorID>B41F41C1-55D1-7C0E-F4F2-BD36BAC9BC58</generatorID>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<referredTableLongName>T_SGV_DADOS_CADASTRAL</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A21F835C-FEC0-570C-9B72-4B497832770D</referredTableID>
+<keyObject>9836A82E-055C-9ACF-A3C4-D6F6C0C5A614</keyObject>
+<referredKeyID>9836A82E-055C-9ACF-A3C4-D6F6C0C5A614</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cod_cadastro</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

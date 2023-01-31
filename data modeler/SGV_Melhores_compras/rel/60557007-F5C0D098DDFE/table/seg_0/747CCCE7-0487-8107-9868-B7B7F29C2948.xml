@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="747CCCE7-0487-8107-9868-B7B7F29C2948" name="T_SGV_CATEGORIA_PROD">
+<createdBy>joaom</createdBy>
+<createdTime>2022-09-02 23:54:02 UTC</createdTime>
+<generatorID>6A3EBCDE-5F74-A0BE-5AA4-307FEE553DA5</generatorID>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cod_categoria" id="5198CEF7-47D0-6647-5D6A-C7F4D2A86D96">
+<createdBy>joaom</createdBy>
+<createdTime>2022-09-02 23:54:02 UTC</createdTime>
+<comment><![CDATA[PK código de categoria]]></comment>
+<commentInRDBMS><![CDATA[PK código de categoria]]></commentInRDBMS>
+<generatorID>7EB118B6-0C92-B54D-72F8-E871A87223C2</generatorID>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="des_categoria_produto" id="6E90E7F3-E91C-4567-6316-39192185BBAF">
+<createdBy>joaom</createdBy>
+<createdTime>2022-09-02 23:54:02 UTC</createdTime>
+<comment><![CDATA[Categoria dos produtos]]></comment>
+<commentInRDBMS><![CDATA[Categoria dos produtos]]></commentInRDBMS>
+<generatorID>389FB422-8BE0-656B-83C1-00E85FEE0463</generatorID>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+<ownDataTypeParameters>45,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sta_categoria" id="EDBCF65B-0DC3-CC13-9E58-D43E04D66E23">
+<createdBy>joaom</createdBy>
+<createdTime>2022-09-02 23:54:02 UTC</createdTime>
+<comment><![CDATA[Status da categoria
+A - Ativo
+I - Inativo]]></comment>
+<commentInRDBMS><![CDATA[Status da categoria
+A - Ativo
+I - Inativo]]></commentInRDBMS>
+<generatorID>C866C38B-EF43-35B0-8884-AE3124FC3D3B</generatorID>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dat_inicio" id="B9C0F02B-E7E3-165E-6CE7-D2A38A532196">
+<createdBy>joaom</createdBy>
+<createdTime>2022-09-02 23:54:02 UTC</createdTime>
+<comment><![CDATA[Data de cadastro da categoria]]></comment>
+<commentInRDBMS><![CDATA[Data de cadastro da categoria]]></commentInRDBMS>
+<generatorID>3615E6DE-883C-B020-8A4D-7E829295BC4B</generatorID>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dat_termino" id="86C44970-FAFE-BA2E-22BF-DC864801F2F2">
+<createdBy>joaom</createdBy>
+<createdTime>2022-09-02 23:54:02 UTC</createdTime>
+<comment><![CDATA[Data de término da categoria]]></comment>
+<commentInRDBMS><![CDATA[Data de término da categoria]]></commentInRDBMS>
+<generatorID>7729F71A-3590-0AD6-C2A3-818621912757</generatorID>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7E7F1CC8-24E0-A0F2-9C65-FADC65548881" name="T_SGV_CAT_PROD_PK">
+<createdBy>joaom</createdBy>
+<createdTime>2022-09-02 23:54:02 UTC</createdTime>
+<generatorID>FDA978CE-841D-509F-2888-366D094D3397</generatorID>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5198CEF7-47D0-6647-5D6A-C7F4D2A86D96"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B919F294-3CBE-D0E5-435B-16D38C288B69" name="T_SGV_CAT_PRD__UN_des_cat_prd">
+<createdBy>joaom</createdBy>
+<createdTime>2022-09-03 01:39:29 UTC</createdTime>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6E90E7F3-E91C-4567-6316-39192185BBAF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="T_SGV_CAT_PRD_CK_sts_cat" directorySegmentName="seg_0" id="C28D2BF0-5FA4-6B2C-E63A-5AAB0F7F360A">
+<createdBy>joaom</createdBy>
+<createdTime>2022-09-03 01:40:09 UTC</createdTime>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<rule><![CDATA[sta_categoria = UPPER('A') or sta_categoria = UPPER('I')]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

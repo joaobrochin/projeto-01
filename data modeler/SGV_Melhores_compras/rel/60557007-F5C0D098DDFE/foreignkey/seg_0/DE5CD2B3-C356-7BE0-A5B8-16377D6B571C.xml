@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DE5CD2B3-C356-7BE0-A5B8-16377D6B571C" containerWithKeyObject="FFBDE713-0CC9-252F-DE69-A27E397A34FD" localFKIndex="215C69EB-1A85-4C65-9634-F48B97970D5A" name="T_SGV_FNC_T_SGV_CRG_FK">
+<createdBy>joaom</createdBy>
+<createdTime>2022-09-02 23:54:02 UTC</createdTime>
+<comment><![CDATA[T_SGV_FUNCIONARIO_T_SGV_CARGO_FK]]></comment>
+<generatorID>2FDA1FEA-7A9B-CF60-F9E2-31FA3EB61064</generatorID>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<referredTableLongName>T_SGV_CARGO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CBC7CAEF-D0BB-6012-09C6-399C9193BA39</referredTableID>
+<keyObject>27859AB7-5C2C-B57B-63D6-579A8312B960</keyObject>
+<referredKeyID>27859AB7-5C2C-B57B-63D6-579A8312B960</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cod_cargo</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

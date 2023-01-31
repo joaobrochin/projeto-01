@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="pertence" directorySegmentName="seg_0" id="E6F74A20-F756-AEBD-F13D-DF31750EA6E6">
+<createdBy>joaom</createdBy>
+<createdTime>2022-08-31 19:38:53 UTC</createdTime>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<engineerTo>
+<item key="60557007-414D-49CD-DBBC-F5C0D098DDFE" value="true"/>
+</engineerTo>
+<sourcePk>D70537F3-B79F-0E98-5B7B-55A087B65236</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>48FA337F-02C6-37D6-6193-8BEFA696AA0B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F62AA6B7-AD1E-3C5B-5A6D-05F93289B9ED</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

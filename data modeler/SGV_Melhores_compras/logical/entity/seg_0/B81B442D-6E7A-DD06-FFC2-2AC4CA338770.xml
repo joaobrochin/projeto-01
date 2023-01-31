@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B81B442D-6E7A-DD06-FFC2-2AC4CA338770" name="T_SGV_VISUALIZACAO_VIDEO">
+<createdBy>joaom</createdBy>
+<createdTime>2022-08-31 17:28:36 UTC</createdTime>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<engineerTo>
+<item key="60557007-414D-49CD-DBBC-F5C0D098DDFE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_visualizacao" id="08CDA5A4-7AED-C04C-895A-1FB0610022B9">
+<createdBy>joaom</createdBy>
+<createdTime>2022-08-31 17:28:53 UTC</createdTime>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<engineerTo>
+<item key="60557007-414D-49CD-DBBC-F5C0D098DDFE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dat_visualizacao" id="6442E95C-23AB-82F3-F650-1F36DCB3E5BF">
+<createdBy>joaom</createdBy>
+<createdTime>2022-08-31 17:30:04 UTC</createdTime>
+<commentInRDBMS><![CDATA[Data de visualização do video]]></commentInRDBMS>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<engineerTo>
+<item key="60557007-414D-49CD-DBBC-F5C0D098DDFE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_video" id="B4447769-1884-5E27-5039-4E8D4751048A">
+<createdBy>joaom</createdBy>
+<createdTime>2022-08-31 17:39:19 UTC</createdTime>
+<generatorID>671F5720-3F2C-83A6-5CF8-B8508D404638</generatorID>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<engineerTo>
+<item key="60557007-414D-49CD-DBBC-F5C0D098DDFE" value="true"/>
+</engineerTo>
+<referedAttribute>F5A3FC0D-090A-7B67-9CF6-E86BCCA8FCA0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_cadastro" id="DD52DE4C-5A37-1E90-C8F7-D6E0ADD725F8">
+<createdBy>joaom</createdBy>
+<createdTime>2022-09-02 00:21:52 UTC</createdTime>
+<generatorID>6DAD264F-9D67-8C95-3E79-C17F9F474A13</generatorID>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<engineerTo>
+<item key="60557007-414D-49CD-DBBC-F5C0D098DDFE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>4C1559B6-F292-2F96-E1DF-0A8312314BF6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_cliente" id="92AF1F06-3774-7BCB-A37F-2A7FC5FBE620">
+<createdBy>joaom</createdBy>
+<createdTime>2022-09-02 00:21:52 UTC</createdTime>
+<generatorID>6DAD264F-9D67-8C95-3E79-C17F9F474A13</generatorID>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<engineerTo>
+<item key="60557007-414D-49CD-DBBC-F5C0D098DDFE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>10F66032-515A-65A7-C09A-E53C17C4F375</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0CB655E4-5A60-02E8-9F59-2F53FC0C7B4F" name="T_SGV_VISUALIZACAO_VIDEO PK">
+<createdBy>joaom</createdBy>
+<createdTime>2022-08-31 17:29:09 UTC</createdTime>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<engineerTo>
+<item key="60557007-414D-49CD-DBBC-F5C0D098DDFE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>08CDA5A4-7AED-C04C-895A-1FB0610022B9</attributeRef>
+<attributeRef>B4447769-1884-5E27-5039-4E8D4751048A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

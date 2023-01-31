@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F62AA6B7-AD1E-3C5B-5A6D-05F93289B9ED" name="T_SGV_FUNCIONARIO">
+<createdBy>joaom</createdBy>
+<createdTime>2022-08-31 18:17:05 UTC</createdTime>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<engineerTo>
+<item key="60557007-414D-49CD-DBBC-F5C0D098DDFE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_rm_funcionario" id="D2BFEEE2-F0F4-7B3C-6D1B-37580AD9BD40">
+<createdBy>joaom</createdBy>
+<createdTime>2022-09-01 20:00:32 UTC</createdTime>
+<commentInRDBMS><![CDATA[código de RM do funcionário]]></commentInRDBMS>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<engineerTo>
+<item key="60557007-414D-49CD-DBBC-F5C0D098DDFE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_cadastro" id="D212039F-DFAF-AB1B-5550-330DA2DDD763">
+<createdBy>joaom</createdBy>
+<createdTime>2022-09-01 20:03:27 UTC</createdTime>
+<generatorID>310518A3-55E4-88EF-3DBA-26C58F2C91E5</generatorID>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<engineerTo>
+<item key="60557007-414D-49CD-DBBC-F5C0D098DDFE" value="true"/>
+</engineerTo>
+<referedAttribute>B7E135F6-CCEC-CCBE-1508-8E88C095DF91</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_cargo" id="4F23B8AE-1C05-FDB3-0F66-2F7A4483F89B">
+<createdBy>joaom</createdBy>
+<createdTime>2022-08-31 19:36:06 UTC</createdTime>
+<generatorID>2FDA1FEA-7A9B-CF60-F9E2-31FA3EB61064</generatorID>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<engineerTo>
+<item key="60557007-414D-49CD-DBBC-F5C0D098DDFE" value="true"/>
+</engineerTo>
+<referedAttribute>BE28A73D-C5A5-2324-93D2-C93EB8F3A437</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_departamento" id="22BED87F-FE51-91CA-A4AC-434DD35A7377">
+<createdBy>joaom</createdBy>
+<createdTime>2022-08-31 19:38:53 UTC</createdTime>
+<generatorID>E6F74A20-F756-AEBD-F13D-DF31750EA6E6</generatorID>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<engineerTo>
+<item key="60557007-414D-49CD-DBBC-F5C0D098DDFE" value="true"/>
+</engineerTo>
+<referedAttribute>09F648D1-BF97-4026-788E-C8C94A91FE4A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="05394826-B968-EC6D-FF69-8035F0E5D7E6" name="T_SGV_FUNCIONARIO PK">
+<createdBy>joaom</createdBy>
+<createdTime>2022-09-01 20:03:27 UTC</createdTime>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<engineerTo>
+<item key="60557007-414D-49CD-DBBC-F5C0D098DDFE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D212039F-DFAF-AB1B-5550-330DA2DDD763</attributeRef>
+<attributeRef>D2BFEEE2-F0F4-7B3C-6D1B-37580AD9BD40</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

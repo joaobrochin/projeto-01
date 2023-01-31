@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="identificar" directorySegmentName="seg_0" id="BA5AA57A-9A01-C30B-EA1B-63DB0E7F5E2B">
+<createdBy>joaom</createdBy>
+<createdTime>2022-08-31 17:25:26 UTC</createdTime>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<engineerTo>
+<item key="60557007-414D-49CD-DBBC-F5C0D098DDFE" value="true"/>
+</engineerTo>
+<sourcePk>6437EB63-0BD8-2762-DD5E-EA3A0C2424F2</sourcePk>
+<targetPk>FDA978CE-841D-509F-2888-366D094D3397</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>F7BFA2EC-9B88-515D-1CC3-528B2F520A42</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>6A3EBCDE-5F74-A0BE-5AA4-307FEE553DA5</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

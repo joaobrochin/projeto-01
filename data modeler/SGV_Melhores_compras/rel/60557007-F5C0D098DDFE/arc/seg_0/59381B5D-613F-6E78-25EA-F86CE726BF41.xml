@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKArc class="oracle.dbtools.crest.model.design.relational.FKArc" directorySegmentName="seg_0" id="59381B5D-613F-6E78-25EA-F86CE726BF41" name="SGV_CAD_CLI_FUNC">
+<createdBy>joaom</createdBy>
+<createdTime>2022-09-02 23:54:02 UTC</createdTime>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<mandatory>true</mandatory>
+<reverseArc>true</reverseArc>
+<table>A21F835C-FEC0-570C-9B72-4B497832770D</table>
+<discriminatorColumn>8E38493C-0D05-9255-4BE6-B725DE54A4AC</discriminatorColumn>
+<fkeys>
+<fkeyID>7B83C126-9683-95ED-6ADB-11E85D8D7C70</fkeyID>
+<fkeyID>6601F112-73EC-286F-97BF-9B0DAD6E5111</fkeyID>
+</fkeys>
+</FKArc>

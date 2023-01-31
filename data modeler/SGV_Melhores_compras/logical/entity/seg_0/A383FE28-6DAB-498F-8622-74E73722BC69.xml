@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A383FE28-6DAB-498F-8622-74E73722BC69" name="T_SGV_ACESSO">
+<createdBy>joaom</createdBy>
+<createdTime>2022-08-31 18:50:26 UTC</createdTime>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<engineerTo>
+<item key="60557007-414D-49CD-DBBC-F5C0D098DDFE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_acesso" id="A088602A-008D-A99C-41F5-7887232E9822">
+<createdBy>joaom</createdBy>
+<createdTime>2022-08-31 18:50:43 UTC</createdTime>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<engineerTo>
+<item key="60557007-414D-49CD-DBBC-F5C0D098DDFE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dat_acesso" id="B95458A7-9820-7BC7-1468-D1A5FC3F906C">
+<createdBy>joaom</createdBy>
+<createdTime>2022-08-31 18:50:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[Data de acesso ao portal pelo funcionario]]></commentInRDBMS>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<engineerTo>
+<item key="60557007-414D-49CD-DBBC-F5C0D098DDFE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_cadastro" id="FE6FBE6A-6FBA-CA64-F7E5-AC7606F722E8">
+<createdBy>joaom</createdBy>
+<createdTime>2022-09-01 20:36:41 UTC</createdTime>
+<generatorID>7FB2C5CB-5F24-97F4-CB10-0BDC303DB933</generatorID>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<engineerTo>
+<item key="60557007-414D-49CD-DBBC-F5C0D098DDFE" value="true"/>
+</engineerTo>
+<referedAttribute>4C1559B6-F292-2F96-E1DF-0A8312314BF6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_cliente" id="9D8B64A7-CBAF-0927-2A34-2C7AB23C87A8">
+<createdBy>joaom</createdBy>
+<createdTime>2022-09-01 20:36:41 UTC</createdTime>
+<generatorID>7FB2C5CB-5F24-97F4-CB10-0BDC303DB933</generatorID>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<engineerTo>
+<item key="60557007-414D-49CD-DBBC-F5C0D098DDFE" value="true"/>
+</engineerTo>
+<referedAttribute>10F66032-515A-65A7-C09A-E53C17C4F375</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="313A75B7-08F8-EFB1-2D1D-785EEB1E622D" name="T_SGV_ACESSO PK">
+<createdBy>joaom</createdBy>
+<createdTime>2022-08-31 18:50:53 UTC</createdTime>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<engineerTo>
+<item key="60557007-414D-49CD-DBBC-F5C0D098DDFE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>A088602A-008D-A99C-41F5-7887232E9822,7FB2C5CB-5F24-97F4-CB10-0BDC303DB933</newElementsIDs>
+<usedAttributes>
+<attributeRef>A088602A-008D-A99C-41F5-7887232E9822</attributeRef>
+<attributeRef>FE6FBE6A-6FBA-CA64-F7E5-AC7606F722E8</attributeRef>
+<attributeRef>9D8B64A7-CBAF-0927-2A34-2C7AB23C87A8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

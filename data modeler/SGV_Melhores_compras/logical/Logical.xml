@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="0A6EF557-F03C-6CC1-EFB0-140801538DA7" mainViewID="C68722E7-6CA2-9850-D6F7-E91910176366">
+<createdBy>joaom</createdBy>
+<createdTime>2022-08-31 16:35:48 UTC</createdTime>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

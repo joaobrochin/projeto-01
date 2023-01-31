@@ -1,0 +1,151 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F1F8321A-B81E-190A-7B75-4A0D1AAF9BB9" name="T_SGV_VIDEO_PROD">
+<createdBy>joaom</createdBy>
+<createdTime>2022-09-02 23:54:02 UTC</createdTime>
+<generatorID>AAC25E77-8582-7DE3-AA82-9950CBB0EB97</generatorID>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cod_video" id="3F7287B6-012D-B539-7059-32EBABCFCD91">
+<createdBy>joaom</createdBy>
+<createdTime>2022-09-02 23:54:02 UTC</createdTime>
+<comment><![CDATA[PK código de vídeo incremental]]></comment>
+<commentInRDBMS><![CDATA[PK código de vídeo incremental]]></commentInRDBMS>
+<generatorID>F5A3FC0D-090A-7B67-9CF6-E86BCCA8FCA0</generatorID>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nom_video" id="6340993A-5A3C-CA52-866D-11FFFD433FF8">
+<createdBy>joaom</createdBy>
+<createdTime>2022-09-02 23:54:02 UTC</createdTime>
+<comment><![CDATA[Nome do vídeo]]></comment>
+<commentInRDBMS><![CDATA[Nome do vídeo]]></commentInRDBMS>
+<generatorID>A71C7DA9-29F7-2F7C-0CBB-53C5D6077F46</generatorID>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sta_video" id="010D0ECD-7697-9DBB-3B89-934FE1D65F62">
+<createdBy>joaom</createdBy>
+<createdTime>2022-09-02 23:54:02 UTC</createdTime>
+<comment><![CDATA[Status do video 
+A - Ativo
+I - Inativo]]></comment>
+<commentInRDBMS><![CDATA[Status do video 
+A - Ativo
+I - Inativo]]></commentInRDBMS>
+<generatorID>6FEEB256-ACEC-4C58-BDC0-E4FFC8614DD6</generatorID>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ctd_video" id="3EC7195C-1C33-A5BD-5D14-0DC8A93EE444">
+<createdBy>joaom</createdBy>
+<createdTime>2022-09-02 23:54:02 UTC</createdTime>
+<comment><![CDATA[Conteúdo do vídeo]]></comment>
+<commentInRDBMS><![CDATA[Conteúdo do vídeo]]></commentInRDBMS>
+<generatorID>899F4701-4129-93DD-A2E1-E4D4E136AF02</generatorID>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_SGV_PRD_cod_prd" id="A878B56D-7D4F-965E-3C02-0FC839C66688">
+<createdBy>joaom</createdBy>
+<createdTime>2022-09-02 23:54:02 UTC</createdTime>
+<comment><![CDATA[Nome: FK T_SGV_PRODUTOS_cod_produto]]></comment>
+<commentInRDBMS><![CDATA[Nome: FK T_SGV_PRODUTOS_cod_produto]]></commentInRDBMS>
+<generatorID>F2501D34-111C-14B2-B201-701FD1684954</generatorID>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ACB9BFEE-4815-DAC2-2495-858597C7588A" referredColumn="5C3AA288-0D33-C55C-13B5-954E1A88F559"/>
+</associations>
+</Column>
+<Column name="T_SGV_CAT_VID_cod_cat_vid" id="0E969041-5520-3EE8-4DEF-AB88A0097F26">
+<createdBy>joaom</createdBy>
+<createdTime>2022-09-02 23:54:02 UTC</createdTime>
+<comment><![CDATA[Nome: FK T_SGV_CATEGORIA_VIDEO_cod_categoria_video]]></comment>
+<commentInRDBMS><![CDATA[Nome: FK T_SGV_CATEGORIA_VIDEO_cod_categoria_video]]></commentInRDBMS>
+<generatorID>C2313D2D-6085-F4B0-5937-6491161ECBA4</generatorID>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="98C29631-9077-71C7-7B98-FCA8DD4F3350" referredColumn="5777B790-2C25-F5B0-E7AD-0997CD981545"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2D408DDF-D8C2-F373-4AEA-EA74910FB370" name="T_SGV_VID_PROD_PK">
+<createdBy>joaom</createdBy>
+<createdTime>2022-09-02 23:54:02 UTC</createdTime>
+<generatorID>26A511BB-00F9-9E49-9529-5F76F67FD115</generatorID>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3F7287B6-012D-B539-7059-32EBABCFCD91"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3E0189BC-AB52-55A4-AB4A-DCCCF5478E14" name="T_SGV_VID_PRD_T_SGV_PRD_FK">
+<createdBy>joaom</createdBy>
+<createdTime>2022-09-02 23:54:02 UTC</createdTime>
+<generatorID>3F5E0437-2E0B-5E93-0180-B793E490E4CD</generatorID>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A878B56D-7D4F-965E-3C02-0FC839C66688"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9527C59F-7E3C-7500-64C4-9235892CDACB" name="T_SGV_VID_PRD_T_SGV_CT_VID_FK">
+<createdBy>joaom</createdBy>
+<createdTime>2022-09-02 23:54:02 UTC</createdTime>
+<generatorID>FBD2E905-28B7-24D7-472B-2CC07CB06581</generatorID>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0E969041-5520-3EE8-4DEF-AB88A0097F26"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="T_SGV_VIDEO_PROD_CK_sts_vid" directorySegmentName="seg_0" id="20AF8442-FA89-5DFF-8478-A5DA35C6165B">
+<createdBy>joaom</createdBy>
+<createdTime>2022-09-03 01:38:03 UTC</createdTime>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<rule><![CDATA[sta_video = UPPER('A') or sta_video = UPPER('I')]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

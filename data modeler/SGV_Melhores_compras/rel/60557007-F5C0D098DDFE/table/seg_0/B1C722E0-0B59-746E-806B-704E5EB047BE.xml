@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B1C722E0-0B59-746E-806B-704E5EB047BE" name="T_SGV_DEPARTAMENTO">
+<createdBy>joaom</createdBy>
+<createdTime>2022-09-02 23:54:02 UTC</createdTime>
+<generatorID>48FA337F-02C6-37D6-6193-8BEFA696AA0B</generatorID>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cod_departamento" id="F856081B-37AB-0486-52C3-9F0EED8A50A0">
+<createdBy>joaom</createdBy>
+<createdTime>2022-09-02 23:54:02 UTC</createdTime>
+<comment><![CDATA[pk código de departamento incremental]]></comment>
+<commentInRDBMS><![CDATA[pk código de departamento incremental]]></commentInRDBMS>
+<generatorID>09F648D1-BF97-4026-788E-C8C94A91FE4A</generatorID>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="des_departamento" id="24D033FB-CFDC-3F8D-BC59-7138924A41CE">
+<createdBy>joaom</createdBy>
+<createdTime>2022-09-02 23:54:02 UTC</createdTime>
+<comment><![CDATA[Nome do departamento]]></comment>
+<commentInRDBMS><![CDATA[Nome do departamento]]></commentInRDBMS>
+<generatorID>3300CCAF-C503-B340-AF61-693683A73AE5</generatorID>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8FB6CEFF-66EC-D5BC-6955-E08BA4A95D83" name="T_SGV_DPT_PK">
+<createdBy>joaom</createdBy>
+<createdTime>2022-09-02 23:54:02 UTC</createdTime>
+<generatorID>D70537F3-B79F-0E98-5B7B-55A087B65236</generatorID>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F856081B-37AB-0486-52C3-9F0EED8A50A0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E227564F-E729-5FCE-850F-5AAE02E32BF1" name="T_SGV_DPT_UN_des_dpt">
+<createdBy>joaom</createdBy>
+<createdTime>2022-09-03 01:51:58 UTC</createdTime>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="24D033FB-CFDC-3F8D-BC59-7138924A41CE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

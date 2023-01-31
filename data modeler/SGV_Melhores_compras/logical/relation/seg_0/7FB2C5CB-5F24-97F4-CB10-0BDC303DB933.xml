@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="acessar" directorySegmentName="seg_0" id="7FB2C5CB-5F24-97F4-CB10-0BDC303DB933">
+<createdBy>joaom</createdBy>
+<createdTime>2022-09-01 20:36:41 UTC</createdTime>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<engineerTo>
+<item key="60557007-414D-49CD-DBBC-F5C0D098DDFE" value="true"/>
+</engineerTo>
+<sourcePk>9A2FB457-2FC2-31E9-576B-A4A218F160B7</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C9B737EB-B098-FFAB-E2CF-0BCFBBD00C5C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A383FE28-6DAB-498F-8622-74E73722BC69</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

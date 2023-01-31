@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="SGV_Melhores_compras" id="7B868572-E4B5-0D7E-CF98-4D3F956C8381" version="3.5">
+<createdBy>joaom</createdBy>
+<createdTime>2022-08-31 16:35:48 UTC</createdTime>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>7B868572-E4B5-0D7E-CF98-4D3F956C8381</designId>
+</OSDM_Design>

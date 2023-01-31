@@ -1,0 +1,136 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F7BFA2EC-9B88-515D-1CC3-528B2F520A42" name="T_SGV_PRODUTO">
+<createdBy>joaom</createdBy>
+<createdTime>2022-08-31 16:48:39 UTC</createdTime>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<engineerTo>
+<item key="60557007-414D-49CD-DBBC-F5C0D098DDFE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_produto" id="65BA3BE8-5C1B-C750-C9C1-E07B502A91B3">
+<createdBy>joaom</createdBy>
+<createdTime>2022-08-31 16:49:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[código do produto automático do sistema SGV]]></commentInRDBMS>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<engineerTo>
+<item key="60557007-414D-49CD-DBBC-F5C0D098DDFE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="des_short_produto" id="F4F505AD-BD5F-049B-2B97-6E95F91EEA91">
+<createdBy>joaom</createdBy>
+<createdTime>2022-08-31 16:50:23 UTC</createdTime>
+<commentInRDBMS><![CDATA[descrição breve do produto]]></commentInRDBMS>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<engineerTo>
+<item key="60557007-414D-49CD-DBBC-F5C0D098DDFE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="des_compl_produto" id="2CEA4258-DC94-DD35-D0A7-64BC595C1B73">
+<createdBy>joaom</createdBy>
+<createdTime>2022-08-31 16:51:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[descrição completa do produto]]></commentInRDBMS>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<engineerTo>
+<item key="60557007-414D-49CD-DBBC-F5C0D098DDFE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="num_ean13" id="07725296-9CE1-5E18-A6B6-7C823EC19838">
+<createdBy>joaom</createdBy>
+<createdTime>2022-08-31 16:51:32 UTC</createdTime>
+<commentInRDBMS><![CDATA[código EAN 13 do produto - codigo de barras]]></commentInRDBMS>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<engineerTo>
+<item key="60557007-414D-49CD-DBBC-F5C0D098DDFE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>13</dataTypePrecision>
+<ownDataTypeParameters>,13,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="val_preco" id="083FA442-2A94-5BD9-CEE0-D01368343824">
+<createdBy>joaom</createdBy>
+<createdTime>2022-08-31 16:52:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[Preço do produto]]></commentInRDBMS>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<engineerTo>
+<item key="60557007-414D-49CD-DBBC-F5C0D098DDFE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,9,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sta_produto" id="B37ADDD4-05E8-F04A-AF33-E1610C0F3E09">
+<createdBy>joaom</createdBy>
+<createdTime>2022-08-31 16:53:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Campo de status  do produot
+Valores A - Ativo, I - Inativo, P - prologado ]]></commentInRDBMS>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<engineerTo>
+<item key="60557007-414D-49CD-DBBC-F5C0D098DDFE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_categoria" id="477C3992-9033-E11C-8713-E24CF0388C0B">
+<createdBy>joaom</createdBy>
+<createdTime>2022-08-31 17:27:32 UTC</createdTime>
+<generatorID>BA5AA57A-9A01-C30B-EA1B-63DB0E7F5E2B</generatorID>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<engineerTo>
+<item key="60557007-414D-49CD-DBBC-F5C0D098DDFE" value="true"/>
+</engineerTo>
+<referedAttribute>7EB118B6-0C92-B54D-72F8-E871A87223C2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6437EB63-0BD8-2762-DD5E-EA3A0C2424F2" name="T_SGV_PRODUTOS PK">
+<createdBy>joaom</createdBy>
+<createdTime>2022-08-31 16:49:57 UTC</createdTime>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="60557007-414D-49CD-DBBC-F5C0D098DDFE" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>65BA3BE8-5C1B-C750-C9C1-E07B502A91B3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,328 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AEAA0766-C7AF-C530-6EBA-D4746D2D0495" name="T_SGV_CHAMADO">
+<createdBy>joaom</createdBy>
+<createdTime>2022-09-02 23:54:02 UTC</createdTime>
+<generatorID>BD6CE7E8-0B10-E5AE-2F26-533E11ED04C2</generatorID>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<ordsAlias>t_sgv_chamados</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cod_chamado" id="0371718E-636E-E52B-C517-10C8166DEF65">
+<createdBy>joaom</createdBy>
+<createdTime>2022-09-02 23:54:02 UTC</createdTime>
+<comment><![CDATA[PK código chamado incremental]]></comment>
+<commentInRDBMS><![CDATA[PK código chamado incremental]]></commentInRDBMS>
+<generatorID>B99EBC82-825E-093F-258C-5B834BC8BA1A</generatorID>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementMinValue>1</autoIncrementMinValue>
+<autoIncrementMaxValue>999999</autoIncrementMaxValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dat_abertura_chamado" id="0BBDA35A-97DE-5F78-BECA-FA9DEF47D816">
+<createdBy>joaom</createdBy>
+<createdTime>2022-09-02 23:54:02 UTC</createdTime>
+<comment><![CDATA[Data de abertura do chamado pelo cliente]]></comment>
+<commentInRDBMS><![CDATA[Data de abertura do chamado pelo cliente]]></commentInRDBMS>
+<generatorID>F88D8979-31DA-E112-A728-03DD42F93DDA</generatorID>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dat_atendimento" id="33C3658F-1EA3-58B4-7EE1-BE68677F1D09">
+<createdBy>joaom</createdBy>
+<createdTime>2022-09-02 23:54:02 UTC</createdTime>
+<comment><![CDATA[Data do primeiro atendimento do funcionario sobre o chamado]]></comment>
+<commentInRDBMS><![CDATA[Data do primeiro atendimento do funcionario sobre o chamado]]></commentInRDBMS>
+<generatorID>2C811B88-0433-F269-E01E-AD420A4B5123</generatorID>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dat_encerramento" id="92C87893-7A74-3020-220C-B59D26552FCB">
+<createdBy>joaom</createdBy>
+<createdTime>2022-09-02 23:54:02 UTC</createdTime>
+<comment><![CDATA[Data de encerramento do chamado quando o mesmo é finalizado]]></comment>
+<commentInRDBMS><![CDATA[Data de encerramento do chamado quando o mesmo é finalizado]]></commentInRDBMS>
+<generatorID>D6752B4D-7ECF-7BD5-CEF9-6CEE3184EEAD</generatorID>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="num_satisfacao" id="3BFE2C76-8636-5709-9FBD-055E67A0EC56">
+<createdBy>joaom</createdBy>
+<createdTime>2022-09-02 23:54:02 UTC</createdTime>
+<comment><![CDATA[Indice de satisfação - 1 à 10
+
+1 - menos satisfeito
+10 - mais satisfeito]]></comment>
+<commentInRDBMS><![CDATA[Indice de satisfação - 1 à 10
+
+1 - menos satisfeito
+10 - mais satisfeito]]></commentInRDBMS>
+<generatorID>3C7DFB79-4167-744D-1D2E-28A365B5EBE8</generatorID>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tip_chamado" id="FF330C8F-27AD-8A20-F014-438B46DF15B3">
+<createdBy>joaom</createdBy>
+<createdTime>2022-09-02 23:54:02 UTC</createdTime>
+<comment><![CDATA[1 - Tipo 1 : Sugestão
+2 - Tipo 2 : Reclamação]]></comment>
+<commentInRDBMS><![CDATA[1 - Tipo 1 : Sugestão
+2 - Tipo 2 : Reclamação]]></commentInRDBMS>
+<generatorID>2F37C00D-B4A5-A147-F511-ADD371227D13</generatorID>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="des_chamado_cliente" id="EA8987DA-464A-4724-7344-0949C00994DA">
+<createdBy>joaom</createdBy>
+<createdTime>2022-09-02 23:54:02 UTC</createdTime>
+<comment><![CDATA[Descricao do chamado aberto pelo cliente]]></comment>
+<commentInRDBMS><![CDATA[Descricao do chamado aberto pelo cliente]]></commentInRDBMS>
+<generatorID>89EC2C48-C0D0-0CDD-FF3E-BDC9EFEEC5CF</generatorID>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<ownDataTypeParameters>4000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="des_chamado_funcionario" id="47CF9866-39DA-63C6-E9B2-F8A9FE7D5294">
+<createdBy>joaom</createdBy>
+<createdTime>2022-09-02 23:54:02 UTC</createdTime>
+<comment><![CDATA[Descricao do atendimento do funcionario]]></comment>
+<commentInRDBMS><![CDATA[Descricao do atendimento do funcionario]]></commentInRDBMS>
+<generatorID>E059DA50-4ED5-FBCD-E057-F8E280591219</generatorID>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<ownDataTypeParameters>4000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sta_chamado" id="367D3931-A473-5E15-8CB0-24B80E5463D5">
+<createdBy>joaom</createdBy>
+<createdTime>2022-09-02 23:54:02 UTC</createdTime>
+<comment><![CDATA[status de chamado
+sts_chamado
+A - aberto
+C - cancelado
+E - em atendimento
+F - fechao com sucesso
+X - fechando com instatisfacao]]></comment>
+<commentInRDBMS><![CDATA[status de chamado
+sts_chamado
+A - aberto
+C - cancelado
+E - em atendimento
+F - fechao com sucesso
+X - fechando com instatisfacao]]></commentInRDBMS>
+<generatorID>0F8DE625-145C-0DDB-7729-F656F9676B63</generatorID>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_SGV_PRD_cod_prd" id="D2059B83-37FC-6DE7-FB0A-D8FE00E08A04">
+<createdBy>joaom</createdBy>
+<createdTime>2022-09-02 23:54:02 UTC</createdTime>
+<comment><![CDATA[T_SGV_PRODUTOS_cod_produto]]></comment>
+<commentInRDBMS><![CDATA[T_SGV_PRODUTOS_cod_produto]]></commentInRDBMS>
+<generatorID>393077F8-D88A-2A16-6199-FF674D9109B1</generatorID>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="760404C7-F6CC-67C5-0697-B6F980D3F72E" referredColumn="5C3AA288-0D33-C55C-13B5-954E1A88F559"/>
+</associations>
+</Column>
+<Column name="T_SGV_FNC_T_SGV_D_CDT_cod_cad" id="FB5B8AAF-9873-8985-F215-D55DCA54C72E">
+<createdBy>joaom</createdBy>
+<createdTime>2022-09-02 23:54:02 UTC</createdTime>
+<comment><![CDATA[F cod_cadastro.cod_rm_funcionario
+Nome: FK  T_SGV_FUNCIONARIO_T_SGV_DADOS_CADASTRAIS_cod_cadastro]]></comment>
+<commentInRDBMS><![CDATA[F cod_cadastro.cod_rm_funcionario
+Nome: FK  T_SGV_FUNCIONARIO_T_SGV_DADOS_CADASTRAIS_cod_cadastro]]></commentInRDBMS>
+<generatorID>D2B52F65-0A5E-A213-FD97-B9FEC251A671</generatorID>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9ADA2446-6100-1F24-708D-FE146E274A4B" referredColumn="AD4658FF-D019-942A-748F-82F58936B2FB"/>
+</associations>
+</Column>
+<Column name="T_SGV_FNC_cod_rm_fnc" id="82B9BF39-C474-13FB-4942-ADBFB3E7D762">
+<createdBy>joaom</createdBy>
+<createdTime>2022-09-02 23:54:02 UTC</createdTime>
+<comment><![CDATA[Nome: FK T_SGV_FUNCIONARIO_cod_rm_funcionario]]></comment>
+<commentInRDBMS><![CDATA[Nome: FK T_SGV_FUNCIONARIO_cod_rm_funcionario]]></commentInRDBMS>
+<generatorID>4FC95701-B172-F576-EF19-765882BC8F8E</generatorID>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9ADA2446-6100-1F24-708D-FE146E274A4B" referredColumn="325AC4C5-2779-218B-DA9B-88F6F6301BF4"/>
+</associations>
+</Column>
+<Column name="T_SGV_CLI_T_SGV_D_CDT_cod_cad" id="E2C84495-C989-97FA-F521-E48DED4D15E2">
+<createdBy>joaom</createdBy>
+<createdTime>2022-09-02 23:54:02 UTC</createdTime>
+<comment><![CDATA[F cod_cadastro.cod_cliente
+Nome: FK  T_SGV_CLIENTE_T_SGV_DADOS_CADASTRAIS_cod_cadastro]]></comment>
+<commentInRDBMS><![CDATA[F cod_cadastro.cod_cliente
+Nome: FK  T_SGV_CLIENTE_T_SGV_DADOS_CADASTRAIS_cod_cadastro]]></commentInRDBMS>
+<generatorID>9BA7B016-D089-3562-85EB-157413638CA8</generatorID>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8AE25783-0798-3419-A249-87D850BFF3DF" referredColumn="C26D1B1D-EC91-40FF-6A38-27FD67D98C60"/>
+</associations>
+</Column>
+<Column name="T_SGV_CLI_cod_cli" id="4A1A4A1A-5F45-82FA-AD44-DD750AFD0730">
+<createdBy>joaom</createdBy>
+<createdTime>2022-09-02 23:54:02 UTC</createdTime>
+<comment><![CDATA[Nome: FK T_SGV_CLIENTE_cod_cliente]]></comment>
+<commentInRDBMS><![CDATA[Nome: FK T_SGV_CLIENTE_cod_cliente]]></commentInRDBMS>
+<generatorID>36114F0E-F818-A015-6FFE-6800D0AEE51C</generatorID>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8AE25783-0798-3419-A249-87D850BFF3DF" referredColumn="DA4FD63A-D372-DF24-89E6-E0FDEF12B56D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B3ADED8C-BE36-D7EB-7515-1F9E4FA9A4CD" name="T_SGV_CHAMADOS_PK">
+<createdBy>joaom</createdBy>
+<createdTime>2022-09-02 23:54:02 UTC</createdTime>
+<generatorID>B1ECEC50-1330-6A68-454E-F5404F0D076A</generatorID>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0371718E-636E-E52B-C517-10C8166DEF65"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="491ECDA2-EF51-C490-30A2-F6766A1646FE" name="T_SGV_CHMD_T_SGV_CLI_FK">
+<createdBy>joaom</createdBy>
+<createdTime>2022-09-02 23:54:02 UTC</createdTime>
+<generatorID>08A8066B-A3FF-71D8-6A5D-1DA402B867CA</generatorID>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E2C84495-C989-97FA-F521-E48DED4D15E2"/>
+<colUsage columnID="4A1A4A1A-5F45-82FA-AD44-DD750AFD0730"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E3B65BDC-2EAF-5DD3-36BC-2ABA49324B6B" name="T_SGV_CHMD_T_SGV_FNC_FK">
+<createdBy>joaom</createdBy>
+<createdTime>2022-09-02 23:54:02 UTC</createdTime>
+<generatorID>10FF3F7C-B216-CE51-CBD2-693089232E9A</generatorID>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB5B8AAF-9873-8985-F215-D55DCA54C72E"/>
+<colUsage columnID="82B9BF39-C474-13FB-4942-ADBFB3E7D762"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="76A03419-4BA2-EA86-689F-DCC68C11A7FA" name="T_SGV_CHMD_T_SGV_PRD_FK">
+<createdBy>joaom</createdBy>
+<createdTime>2022-09-02 23:54:02 UTC</createdTime>
+<generatorID>424B81CC-7430-0112-1AA0-39E733EFFF4D</generatorID>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D2059B83-37FC-6DE7-FB0A-D8FE00E08A04"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="T_SGV_CMD_CK_num_stfc" directorySegmentName="seg_0" id="5C7DFF8D-4B52-CACA-E88E-AE0DD7FA3E49">
+<createdBy>joaom</createdBy>
+<createdTime>2022-09-03 01:43:36 UTC</createdTime>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<rule><![CDATA[num_satisfacao > 0 and num_satisfacao < 11]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="T_SGV_CHAMADOS_CK_sta_cmd" directorySegmentName="seg_0" id="2DE2BDE2-73AA-75FE-56B3-EA999F419AE1">
+<createdBy>joaom</createdBy>
+<createdTime>2022-09-03 01:46:16 UTC</createdTime>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<rule><![CDATA[sta_chamado = UPPER('A') or sta_chamado =UPPER('C') or sta_chamado = UPPER('E') or sta_chamado = UPPER('F')OR sta_chamado  = UPPER('X')]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="T_SGV_CHAMADOS_CK_tip_cmd" directorySegmentName="seg_0" id="220BCCBA-64E1-D5E1-5DAF-A36E2EF85441">
+<createdBy>joaom</createdBy>
+<createdTime>2022-09-03 01:49:47 UTC</createdTime>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<rule><![CDATA[tip_chamado = '1' or tip_chamado = '2']]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="174C83A2-6623-39E2-0969-54DC3593C816" name="T_SGV_CATEGORIA_VIDEO">
+<createdBy>joaom</createdBy>
+<createdTime>2022-09-02 23:54:02 UTC</createdTime>
+<generatorID>CDA9E68E-8AC3-73EB-C9E9-5FC21B5F31C7</generatorID>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cod_categoria_video" id="5777B790-2C25-F5B0-E7AD-0997CD981545">
+<createdBy>joaom</createdBy>
+<createdTime>2022-09-02 23:54:02 UTC</createdTime>
+<comment><![CDATA[PK código categoria vídeo incremental]]></comment>
+<commentInRDBMS><![CDATA[PK código categoria vídeo incremental]]></commentInRDBMS>
+<generatorID>91C6654D-4B6D-59D3-CBFB-8665DD17BC98</generatorID>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementMinValue>1</autoIncrementMinValue>
+<autoIncrementMaxValue>999999</autoIncrementMaxValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="des_categoria_video" id="5079F9DE-489E-DE8C-EE74-60D1BE626785">
+<createdBy>joaom</createdBy>
+<createdTime>2022-09-02 23:54:02 UTC</createdTime>
+<comment><![CDATA[Descrição da categoria de video]]></comment>
+<commentInRDBMS><![CDATA[Descrição da categoria de video]]></commentInRDBMS>
+<generatorID>30423C8E-8776-562E-2C0A-A68F4BFB2E7C</generatorID>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6ABB344C-31F9-0D76-B3AB-E2BF3A9A2E4E" name="T_SGV_CAT_VID_PK">
+<createdBy>joaom</createdBy>
+<createdTime>2022-09-02 23:54:02 UTC</createdTime>
+<generatorID>1B8DB78D-8B30-9F4B-B18B-8B10A9B00172</generatorID>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5777B790-2C25-F5B0-E7AD-0997CD981545"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A27E6984-0974-0F19-7970-DE28E402F201" name="T_SGV_CAT_VID__UN_des_cat_vid">
+<createdBy>joaom</createdBy>
+<createdTime>2022-09-03 01:39:03 UTC</createdTime>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5079F9DE-489E-DE8C-EE74-60D1BE626785"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

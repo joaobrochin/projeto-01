@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F8B9B1DB-F5AF-A893-CDD3-E6D7FF78BFF5" name="T_SGV_TELEFONE">
+<createdBy>joaom</createdBy>
+<createdTime>2022-09-02 23:54:02 UTC</createdTime>
+<generatorID>B614D238-B6DE-3D24-899D-077AE9315B3B</generatorID>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="num_telefone_completo" id="DB1B1C38-984E-1182-A482-712AEBCE267B">
+<createdBy>joaom</createdBy>
+<createdTime>2022-09-02 23:54:02 UTC</createdTime>
+<comment><![CDATA[Cod de identificacao do numero do telefone completo]]></comment>
+<commentInRDBMS><![CDATA[Cod de identificacao do numero do telefone completo]]></commentInRDBMS>
+<generatorID>EB57C0F6-916F-16D0-D597-A5867C420C14</generatorID>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="num_telefone" id="64D662CA-7CC8-07BE-E839-04F0F13AD460">
+<createdBy>joaom</createdBy>
+<createdTime>2022-09-02 23:54:02 UTC</createdTime>
+<comment><![CDATA[Número do telefone (até 9 digitos)]]></comment>
+<commentInRDBMS><![CDATA[Número do telefone (até 9 digitos)]]></commentInRDBMS>
+<generatorID>E2F0B391-9353-0F43-C9CF-2F1991A07D5D</generatorID>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="num_ddd" id="3FEB9D36-4317-0E18-B655-0D8CB9CC5F4A">
+<createdBy>joaom</createdBy>
+<createdTime>2022-09-02 23:54:02 UTC</createdTime>
+<comment><![CDATA[DDD do telefone]]></comment>
+<commentInRDBMS><![CDATA[DDD do telefone]]></commentInRDBMS>
+<generatorID>F3257CB5-6473-01A8-1CB5-D3FE7B1AC242</generatorID>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_SGV_D_CDT_cod_cad" id="CD03FBFD-CF46-6F00-BED8-BB46B5C9E7E9">
+<createdBy>joaom</createdBy>
+<createdTime>2022-09-02 23:54:02 UTC</createdTime>
+<comment><![CDATA[Nome: PF  T_SGV_DADOS_CADASTRAIS_cod_cadastro]]></comment>
+<commentInRDBMS><![CDATA[Nome: PF  T_SGV_DADOS_CADASTRAIS_cod_cadastro]]></commentInRDBMS>
+<generatorID>4404B279-3F7B-6B49-8F82-B0FA76E00D11</generatorID>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F657F6A7-21A6-D8CE-3D87-A00D5E246788" referredColumn="97E0EDD4-AE2F-D4E1-E272-D74A38E6421B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9B910FE0-2535-4370-784A-3F6B3E9C62A3" name="T_SGV_TEL_PK">
+<createdBy>joaom</createdBy>
+<createdTime>2022-09-02 23:54:02 UTC</createdTime>
+<generatorID>C395C992-11E7-ACE7-8E48-C4BB62B73FF7</generatorID>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DB1B1C38-984E-1182-A482-712AEBCE267B"/>
+<colUsage columnID="CD03FBFD-CF46-6F00-BED8-BB46B5C9E7E9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="394502D7-680B-1652-65A5-CB97D427A165" name="T_SGV_TEL__UN_num_tel">
+<createdBy>joaom</createdBy>
+<createdTime>2022-09-03 01:54:46 UTC</createdTime>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="64D662CA-7CC8-07BE-E839-04F0F13AD460"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5D682B25-A21E-6146-622D-E1A89C8974B8" name="T_SGV_TEL_T_SGV_D_CDT_FK">
+<createdBy>joaom</createdBy>
+<createdTime>2022-09-02 23:54:02 UTC</createdTime>
+<generatorID>B41F41C1-55D1-7C0E-F4F2-BD36BAC9BC58</generatorID>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CD03FBFD-CF46-6F00-BED8-BB46B5C9E7E9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

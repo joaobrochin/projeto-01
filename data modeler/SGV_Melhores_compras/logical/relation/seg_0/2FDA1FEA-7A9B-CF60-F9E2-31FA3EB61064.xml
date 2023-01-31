@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="registrado" directorySegmentName="seg_0" id="2FDA1FEA-7A9B-CF60-F9E2-31FA3EB61064">
+<createdBy>joaom</createdBy>
+<createdTime>2022-08-31 19:36:06 UTC</createdTime>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<engineerTo>
+<item key="60557007-414D-49CD-DBBC-F5C0D098DDFE" value="true"/>
+</engineerTo>
+<sourcePk>B35DF307-280E-2C35-7B58-DB6CF77B3962</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>77F62A47-63A4-D2D9-E000-55E4DCCEA147</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F62AA6B7-AD1E-3C5B-5A6D-05F93289B9ED</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

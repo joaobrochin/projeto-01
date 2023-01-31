@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FFBDE713-0CC9-252F-DE69-A27E397A34FD" name="T_SGV_FUNCIONARIO">
+<createdBy>joaom</createdBy>
+<createdTime>2022-09-02 23:54:02 UTC</createdTime>
+<generatorID>F62AA6B7-AD1E-3C5B-5A6D-05F93289B9ED</generatorID>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cod_rm_func" id="325AC4C5-2779-218B-DA9B-88F6F6301BF4">
+<createdBy>joaom</createdBy>
+<createdTime>2022-09-02 23:54:02 UTC</createdTime>
+<comment><![CDATA[código de RM do funcionário]]></comment>
+<commentInRDBMS><![CDATA[código de RM do funcionário]]></commentInRDBMS>
+<generatorID>D2BFEEE2-F0F4-7B3C-6D1B-37580AD9BD40</generatorID>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_SGV_D_CDT_cod_cad" id="AD4658FF-D019-942A-748F-82F58936B2FB">
+<createdBy>joaom</createdBy>
+<createdTime>2022-09-02 23:54:02 UTC</createdTime>
+<comment><![CDATA[Nome: PF T_SGV_DADOS_CADASTRAIS_cod_cadastro]]></comment>
+<commentInRDBMS><![CDATA[Nome: PF T_SGV_DADOS_CADASTRAIS_cod_cadastro]]></commentInRDBMS>
+<generatorID>D212039F-DFAF-AB1B-5550-330DA2DDD763</generatorID>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7B83C126-9683-95ED-6ADB-11E85D8D7C70" referredColumn="97E0EDD4-AE2F-D4E1-E272-D74A38E6421B"/>
+</associations>
+</Column>
+<Column name="T_SGV_CRG_cod_crg" id="13AD43F9-A880-3ABD-F104-654C961FCDE8">
+<createdBy>joaom</createdBy>
+<createdTime>2022-09-02 23:54:02 UTC</createdTime>
+<comment><![CDATA[Nome: FK T_SGV_CARGO_cod_cargo]]></comment>
+<commentInRDBMS><![CDATA[Nome: FK T_SGV_CARGO_cod_cargo]]></commentInRDBMS>
+<generatorID>4F23B8AE-1C05-FDB3-0F66-2F7A4483F89B</generatorID>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DE5CD2B3-C356-7BE0-A5B8-16377D6B571C" referredColumn="FB084842-D183-7EDE-CFE3-AE7534D7EDE3"/>
+</associations>
+</Column>
+<Column name="T_SGV_DPT_cod_dpt" id="B466C6C6-C51B-1223-8129-244387E72460">
+<createdBy>joaom</createdBy>
+<createdTime>2022-09-02 23:54:02 UTC</createdTime>
+<comment><![CDATA[Nome: FK T_SGV_DEPARTAMENTO_cod_departamento]]></comment>
+<commentInRDBMS><![CDATA[Nome: FK T_SGV_DEPARTAMENTO_cod_departamento]]></commentInRDBMS>
+<generatorID>22BED87F-FE51-91CA-A4AC-434DD35A7377</generatorID>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FE76FC86-ED07-08CC-5EB9-4F5EDFE2FB10" referredColumn="F856081B-37AB-0486-52C3-9F0EED8A50A0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B2A4E28A-0B3E-FB9B-39CA-DBC17EA27120" name="T_SGV_FNC_PK">
+<createdBy>joaom</createdBy>
+<createdTime>2022-09-02 23:54:02 UTC</createdTime>
+<generatorID>05394826-B968-EC6D-FF69-8035F0E5D7E6</generatorID>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AD4658FF-D019-942A-748F-82F58936B2FB"/>
+<colUsage columnID="325AC4C5-2779-218B-DA9B-88F6F6301BF4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1ECDFBA7-455B-718E-91E3-97669476DA80" name="T_SGV_FNC_T_SGV_D_CDT_FK">
+<createdBy>joaom</createdBy>
+<createdTime>2022-09-02 23:54:02 UTC</createdTime>
+<generatorID>310518A3-55E4-88EF-3DBA-26C58F2C91E5</generatorID>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AD4658FF-D019-942A-748F-82F58936B2FB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F3E93F3B-B46A-795D-C7B8-AAADE36F60D0" name="T_SGV_FNC_T_SGV_DPT_FK">
+<createdBy>joaom</createdBy>
+<createdTime>2022-09-02 23:54:02 UTC</createdTime>
+<generatorID>E6F74A20-F756-AEBD-F13D-DF31750EA6E6</generatorID>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B466C6C6-C51B-1223-8129-244387E72460"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="215C69EB-1A85-4C65-9634-F48B97970D5A" name="T_SGV_FNC_T_SGV_CRG_FK">
+<createdBy>joaom</createdBy>
+<createdTime>2022-09-02 23:54:02 UTC</createdTime>
+<generatorID>2FDA1FEA-7A9B-CF60-F9E2-31FA3EB61064</generatorID>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="13AD43F9-A880-3ABD-F104-654C961FCDE8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

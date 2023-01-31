@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="contato_telefone" directorySegmentName="seg_0" id="B41F41C1-55D1-7C0E-F4F2-BD36BAC9BC58">
+<createdBy>joaom</createdBy>
+<createdTime>2022-09-02 23:39:58 UTC</createdTime>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<engineerTo>
+<item key="60557007-414D-49CD-DBBC-F5C0D098DDFE" value="true"/>
+</engineerTo>
+<sourcePk>B0664AEC-92A3-A47B-0F06-9C584DB21E4E</sourcePk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>19BD6FEA-3499-9CE5-443F-22930168932F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B614D238-B6DE-3D24-899D-077AE9315B3B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

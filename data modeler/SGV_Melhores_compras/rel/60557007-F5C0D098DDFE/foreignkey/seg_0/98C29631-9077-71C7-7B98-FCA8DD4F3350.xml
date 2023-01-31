@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="98C29631-9077-71C7-7B98-FCA8DD4F3350" containerWithKeyObject="F1F8321A-B81E-190A-7B75-4A0D1AAF9BB9" localFKIndex="9527C59F-7E3C-7500-64C4-9235892CDACB" name="T_SGV_VID_PRD_T_SGV_CT_VID_FK">
+<createdBy>joaom</createdBy>
+<createdTime>2022-09-02 23:54:02 UTC</createdTime>
+<comment><![CDATA[Chave estrangeira com tabela T_SGV_CATEGORIA_VIDEO]]></comment>
+<generatorID>FBD2E905-28B7-24D7-472B-2CC07CB06581</generatorID>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<referredTableLongName>T_SGV_CATEGORIA_VIDEO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>174C83A2-6623-39E2-0969-54DC3593C816</referredTableID>
+<keyObject>6ABB344C-31F9-0D76-B3AB-E2BF3A9A2E4E</keyObject>
+<referredKeyID>6ABB344C-31F9-0D76-B3AB-E2BF3A9A2E4E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cod_categoria_video</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

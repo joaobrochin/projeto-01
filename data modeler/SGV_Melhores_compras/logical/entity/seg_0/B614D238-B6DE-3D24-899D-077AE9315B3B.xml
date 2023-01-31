@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B614D238-B6DE-3D24-899D-077AE9315B3B" name="T_SGV_TELEFONE">
+<createdBy>joaom</createdBy>
+<createdTime>2022-09-02 23:34:30 UTC</createdTime>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<engineerTo>
+<item key="60557007-414D-49CD-DBBC-F5C0D098DDFE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="num_telefone_completo" id="EB57C0F6-916F-16D0-D597-A5867C420C14">
+<createdBy>joaom</createdBy>
+<createdTime>2022-09-02 23:34:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[Cod de identificacao do numero do telefone completo]]></commentInRDBMS>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<engineerTo>
+<item key="60557007-414D-49CD-DBBC-F5C0D098DDFE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="num_telefone" id="E2F0B391-9353-0F43-C9CF-2F1991A07D5D">
+<createdBy>joaom</createdBy>
+<createdTime>2022-09-02 23:38:33 UTC</createdTime>
+<commentInRDBMS><![CDATA[Número do telefone (até 9 digitos)]]></commentInRDBMS>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<engineerTo>
+<item key="60557007-414D-49CD-DBBC-F5C0D098DDFE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="num_ddd" id="F3257CB5-6473-01A8-1CB5-D3FE7B1AC242">
+<createdBy>joaom</createdBy>
+<createdTime>2022-09-02 23:38:58 UTC</createdTime>
+<commentInRDBMS><![CDATA[DDD do telefone]]></commentInRDBMS>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<engineerTo>
+<item key="60557007-414D-49CD-DBBC-F5C0D098DDFE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_cadastro" id="4404B279-3F7B-6B49-8F82-B0FA76E00D11">
+<createdBy>joaom</createdBy>
+<createdTime>2022-09-02 23:39:58 UTC</createdTime>
+<generatorID>B41F41C1-55D1-7C0E-F4F2-BD36BAC9BC58</generatorID>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<engineerTo>
+<item key="60557007-414D-49CD-DBBC-F5C0D098DDFE" value="true"/>
+</engineerTo>
+<referedAttribute>B7E135F6-CCEC-CCBE-1508-8E88C095DF91</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C395C992-11E7-ACE7-8E48-C4BB62B73FF7" name="T_SGV_TELEFONE PK">
+<createdBy>joaom</createdBy>
+<createdTime>2022-09-02 23:37:34 UTC</createdTime>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<engineerTo>
+<item key="60557007-414D-49CD-DBBC-F5C0D098DDFE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EB57C0F6-916F-16D0-D597-A5867C420C14</attributeRef>
+<attributeRef>4404B279-3F7B-6B49-8F82-B0FA76E00D11</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Cadastro_funcionario" directorySegmentName="seg_0" id="310518A3-55E4-88EF-3DBA-26C58F2C91E5">
+<createdBy>joaom</createdBy>
+<createdTime>2022-09-01 20:03:27 UTC</createdTime>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<engineerTo>
+<item key="60557007-414D-49CD-DBBC-F5C0D098DDFE" value="true"/>
+</engineerTo>
+<sourcePk>B0664AEC-92A3-A47B-0F06-9C584DB21E4E</sourcePk>
+<arc>BF8F9B5D-A4B3-194E-316B-18C59F56C579</arc>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>19BD6FEA-3499-9CE5-443F-22930168932F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F62AA6B7-AD1E-3C5B-5A6D-05F93289B9ED</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

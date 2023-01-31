@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="6601F112-73EC-286F-97BF-9B0DAD6E5111" containerWithKeyObject="92D10595-E5F6-38FD-22A0-2F67730B989E" localFKIndex="9747174F-5DB0-27CF-52E4-C6AA13B41148" name="T_SGV_CLI_T_SGV_D_CDT_FK">
+<createdBy>joaom</createdBy>
+<createdTime>2022-09-02 23:54:02 UTC</createdTime>
+<comment><![CDATA[T_SGV_CLIENTE_T_SGV_DADOS_CADASTRAIS_FK]]></comment>
+<generatorID>E71C4449-10E4-86C7-E82C-698C2FB7B3BF</generatorID>
+<ownerDesignName>SGV_Melhores_compras</ownerDesignName>
+<referredTableLongName>T_SGV_DADOS_CADASTRAL</referredTableLongName>
+<arc>59381B5D-613F-6E78-25EA-F86CE726BF41</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A21F835C-FEC0-570C-9B72-4B497832770D</referredTableID>
+<keyObject>9836A82E-055C-9ACF-A3C4-D6F6C0C5A614</keyObject>
+<referredKeyID>9836A82E-055C-9ACF-A3C4-D6F6C0C5A614</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cod_cadastro</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<discriminatorValue>T_SGV_CLIENTE</discriminatorValue>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
